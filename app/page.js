@@ -69,7 +69,7 @@ const page = () => {
           Generate quote
         </button>
         <button className={"btn btn-secondary " + styles.darkButton} onClick={() => changeMode()}>
-          {mode === "dark" ? <Image src="/dark-mode.png" width={20} height={20}></Image>:<Image src="/light-mode.png" width={20} height={20}></Image>}
+          {mode === "dark" ? <Image src="@public/dark-mode.png" width={20} height={20}></Image>:<Image src="@public/light-mode.png" width={20} height={20}></Image>}
         </button>
       </div>
         

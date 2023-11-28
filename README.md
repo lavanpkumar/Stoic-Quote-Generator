@@ -5,7 +5,7 @@ by Lavan Premkumar
 
 
 ## 🔗 Links
-
+https://stoic-quote-generator-self.vercel.app/
 
 
 ## Tech Stack
