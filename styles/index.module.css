@@ -1,0 +1,38 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin: 20px 0 0 5%;
+  padding-right: 10%;
+}
+
+.generateButton {
+  width: 80%;
+  margin-right: 40px;
+}
+
+.darkButton {
+  width: 20%;
+  background-color: white;
+}
+
+.quote {
+  text-align: center;
+  font-size: 80px;
+  animation: fadeIn 5s;
+}
+
+.author {
+  text-align: center;
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
